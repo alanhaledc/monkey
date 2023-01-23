@@ -178,7 +178,7 @@ func (ie *IfExpression) String() string {
 }
 
 type BlockStatement struct {
-	Token      token.Token // '{'词法单元
+	Token      token.Token // '{' 词法单元
 	Statements []Statement
 }
 
@@ -215,7 +215,7 @@ func (fl *FunctionLiteral) String() string {
 }
 
 type CallExpression struct {
-	Token     token.Token // '('词法单元
+	Token     token.Token // '(' 词法单元
 	Function  Expression  // 标识符或函数字面量
 	Arguments []Expression
 }
