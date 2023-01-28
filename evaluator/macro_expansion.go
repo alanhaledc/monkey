@@ -1,5 +1,3 @@
-// evaluator/macro_expansion.go
-
 package evaluator
 
 import (
